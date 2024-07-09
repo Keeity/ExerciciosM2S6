@@ -1,0 +1,36 @@
+.headerClass {
+    width: 100vw;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.imagem{
+      padding: 13px 180px; 
+      height: fit-content;
+}
+
+.menu {
+    font-size: 0.8em;
+    display: flex;
+    padding-right: 12rem;
+        justify-content: center;
+    align-items:center;
+    gap: 30px
+}
+
+li {
+
+    list-style-type: none;
+}
+
+a {
+    font-weight: 500;
+  cursor: pointer;
+    text-decoration: none;
+  }
+  a:hover {
+    color: #eeeff9;
+    text-decoration: underline;
+  }
