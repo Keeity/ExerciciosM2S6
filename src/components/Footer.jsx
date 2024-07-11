@@ -2,7 +2,7 @@ import './Footer.css'
 
 function Footer () {
     return (
-    <header>
+    <footer>
         <div className="footerClass">
             <img className="imagem" src= "https://www.origamid.com/projetos/bikcraft/img/bikcraft.svg"></img>
       
@@ -39,7 +39,7 @@ function Footer () {
            </div>
          <p className="footer-copy">Bikcraft © Alguns direitos reservados.</p>       
             </div>
-    </header>
+    </footer>
     
     )
     }

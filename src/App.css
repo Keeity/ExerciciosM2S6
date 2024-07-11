@@ -26,6 +26,16 @@
     transform: rotate(360deg);
   }
 }
+a {
+  /* font-weight: 500;
+  color:#f3f3f6e9; */
+cursor: pointer;
+  text-decoration: none;
+}
+a:hover {
+  color:white;
+}
+
 
 @media (prefers-reduced-motion: no-preference) {
   a:nth-of-type(2) .logo {
@@ -34,8 +44,7 @@
 }
 
 .pagina {
-min-height: 30rem;
-
+min-height: 10rem ;
 }
 .card {
   padding: 2em;
@@ -43,4 +52,13 @@ min-height: 30rem;
 
 .read-the-docs {
   color: #888;
+}
+
+.container {
+  box-sizing: border-box;
+  max-width: 1200px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: auto;
+  margin-right: auto;
 }

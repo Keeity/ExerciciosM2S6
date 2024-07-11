@@ -63,15 +63,7 @@ ul {
     unicode-bidi: isolate;
 }
 
-a {
-    /* font-weight: 500;
-    color:#f3f3f6e9; */
-  cursor: pointer;
-    text-decoration: none;
-  }
-  a:hover {
-    color:white;
-  }
+
 
   .footer-redes {
     display: flex;
